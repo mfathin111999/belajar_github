@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ary Yogi</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            margin: 50px;
+        }
+        #container{
+            max-width: 400px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 20px;
+            border: 2px solid;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>BIODATA SAYA</h1>
+        <P>Nama : <span id="nama"></span></P>
+        <p>Jenis Kelamin : <span id="Kelamin"></span></p>
+        <P>Tempat Tanggal Lahir : <span id="ttl"></span></P>
+         <P>Alamat : <span id="alamat"></span></P>
+
+    </div>
+    
+</body>
+<script>
+    document.getElementById("nama").innerText = "Ary Yogi"
+    document.getElementById("Kelamin").innerText = "Laki-laki"
+    document.getElementById("ttl").innerText = "Garut, 23-10-1997"
+    document.getElementById("alamat").innerText = "Kp. Kaum Desa Salamnunggal Kec. Leles"
+</script>
+</html>
