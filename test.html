@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .d-flex {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .col-12 {
+            width: 100%;
+        }
+
+        .col-3 {
+            width: 25%;
+            text-align: center;
+        }
+
+        .align-items-center {
+            align-items: center;
+        }
+
+        .p-2 {
+            padding: 2px;
+        }
+
+        .bg-red {
+            background-color: red;
+        }
+
+        .bg-green {
+            background-color: green;
+        }
+
+        .max-300 {
+            max-width: 300px;
+            width: 100%;
+        }
+
+        .mx-auto {
+            margin: auto;
+        }
+
+        .w-100 {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="d-flex p-2 bg-red max-300 mx-auto">
+        <div class="col-12">
+            <input type="text" class="w-100 p-2">
+        </div>
+        <div class="col-12 d-flex align-items-center">
+            <div class="col-3">1</div>
+            <div class="col-3">2</div>
+            <div class="col-3">3</div>
+            <div class="col-3">4</div>
+            <div class="col-3">5</div>
+            <div class="col-3">6</div>
+            <div class="col-3">7</div>
+            <div class="col-3">8</div>
+            <div class="col-3">9</div>
+        </div>
+        <div class="col-12"></div>
+    </div>
+</body>
+</html>
